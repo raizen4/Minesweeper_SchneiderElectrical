@@ -9,10 +9,13 @@ This is a simple implementation of the classic Minesweeper game in a console app
 To run the game, execute the following command:
 dotnet run
 
+
 This will start the game and prompt you to choose a starting position on the board.
 Gameplay
 - When the game starts, you will be prompted to choose a starting position on the board (top-left, top-right, bottom-left, or bottom-right).
 - After selecting the starting position, the game will display the current board state, your position, the number of lives remaining, and the number of moves made.I know the UI was not needed but it greatly helped me debug the main game logic.
+<img width="1048" alt="Screenshot 2024-05-02 at 17 23 08" src="https://github.com/raizen4/Minesweeper_SchneiderElectrical/assets/15075728/1d05c90d-6c7a-4e4d-9cc5-f8b5a1c48529">
+
 - You can move your character by entering the direction (up, down, left, right) when prompted.
 - If you move to a cell containing a mine, you will lose a life.
 - The goal is to reach the opposite corner of the board from your starting position while avoiding mines.
