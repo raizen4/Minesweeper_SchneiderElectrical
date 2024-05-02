@@ -1,7 +1,10 @@
 # Minesweeper_SchneiderElectrical
 # Minesweeper Console Game
 This is a simple implementation of the classic Minesweeper game in a console application using C# and .NET Core. The game allows the player to navigate a grid filled with hidden mines, trying to reach the other side of the board while avoiding the mines.
-
+# Further Improvements:
+For now in order to change the board size, you will have to go to Program.cs and manually override the board size when the call to game.Start(boardSize) is happening. This could be improved by allowing the user to decide how large board should be.
+Given more time, I would have added more unit tests.
+The choice of having a PlayerService for the sole purpose of creating a Player object is a bit overkill for the current state of the project. However, in the future it could be well worth the choice (maybe even trasnforming it into a factory or players or using the builder pattern to generate different kinds of players).
 # Running the Game
 To run the game, execute the following command:
 dotnet run
