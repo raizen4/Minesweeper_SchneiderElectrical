@@ -1,6 +1,6 @@
 # Minesweeper_SchneiderElectrical
 # Minesweeper Console Game
-This is a simple implementation of the classic Minesweeper game in a console application using C# and .NET Core. The game allows the player to navigate a grid filled with hidden mines, trying to reach the other side of the board while avoiding the mines.
+This is a simple implementation of the classic Minesweeper game in a console application using C#. The game allows the player to navigate a grid filled with hidden mines, trying to reach the other side of the board while avoiding the mines.
 # Further Improvements:
 - For now in order to change the board size, you will have to go to Program.cs and manually override the board size when the call to game.Start(boardSize) is happening. This could be improved by allowing the user to decide how large board should be.
 - Given more time, I would have added more unit tests.
@@ -11,12 +11,12 @@ dotnet run
 
 This will start the game and prompt you to choose a starting position on the board.
 Gameplay
-When the game starts, you will be prompted to choose a starting position on the board (top-left, top-right, bottom-left, or bottom-right).
-After selecting the starting position, the game will display the current board state, your position, the number of lives remaining, and the number of moves made.
-You can move your character by entering the direction (up, down, left, right) when prompted.
-If you move to a cell containing a mine, you will lose a life.
-The goal is to reach the opposite corner of the board from your starting position while avoiding mines.
-The game ends when you either reach the goal or run out of lives.
+- When the game starts, you will be prompted to choose a starting position on the board (top-left, top-right, bottom-left, or bottom-right).
+- After selecting the starting position, the game will display the current board state, your position, the number of lives remaining, and the number of moves made.I know the UI was not needed but it greatly helped me debug the main game logic.
+- You can move your character by entering the direction (up, down, left, right) when prompted.
+- If you move to a cell containing a mine, you will lose a life.
+- The goal is to reach the opposite corner of the board from your starting position while avoiding mines.
+- The game ends when you either reach the goal or run out of lives.
 
 # Unit Tests
 The project includes unit tests for the GameBoardService and GameService classes. To run the tests, execute the following command:
