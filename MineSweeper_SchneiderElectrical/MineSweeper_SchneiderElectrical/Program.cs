@@ -9,7 +9,7 @@ internal static class Program
     private static void Main(string[] args)
     {
         var services = CreateServices();
-        var game = new GameService(services.GetRequiredService<PlayerService>(), services.GetRequiredService<GameBoardService>());
+        var game = new GameService(services.GetRequiredService<IPlayerService>(), services.GetRequiredService<IGameBoardService>());
         game.StartGame(10);
     }
 
