@@ -1,6 +1,6 @@
-using MineSweeper_SchnaiderElectric.Helpers;
+using Minesweeper_SchneiderElectrical.Helpers;
 
-namespace MineSweeper_SchnaiderElectric.Models;
+namespace Minesweeper_SchneiderElectrical.Models;
 
 public class Player
 {

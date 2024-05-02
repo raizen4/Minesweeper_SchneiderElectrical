@@ -1,3 +1,26 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Microsoft.Extensions.DependencyInjection;
+using Minesweeper_SchneiderElectrical.Interfaces;
+using Minesweeper_SchneiderElectrical.Services;
 
-Console.WriteLine("Hello, World!");
+namespace Minesweeper_SchneiderElectrical;
+
+internal static class Program
+{
+    private static void Main(string[] args)
+    {
+        var services = CreateServices();
+        var game = new GameService(services.GetRequiredService<PlayerService>(), services.GetRequiredService<GameBoardService>());
+        game.StartGame(5);
+    }
+
+    private static ServiceProvider CreateServices()
+    {
+        var serviceProvider = new ServiceCollection()
+            .AddSingleton<IGameBoardService, GameBoardService>()
+            .AddSingleton<IPlayerService, PlayerService>()
+            .AddSingleton<IGameService, GameService>()
+            .BuildServiceProvider();
+
+        return serviceProvider;
+    }
+}

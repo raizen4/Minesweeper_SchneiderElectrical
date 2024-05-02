@@ -1,4 +1,4 @@
-namespace MineSweeper_SchnaiderElectric.Helpers;
+namespace Minesweeper_SchneiderElectrical.Helpers;
 
 public static class DirectionHelper
 {

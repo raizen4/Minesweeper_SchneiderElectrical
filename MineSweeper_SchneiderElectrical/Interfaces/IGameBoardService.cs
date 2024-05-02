@@ -1,6 +1,6 @@
-using MineSweeper_SchnaiderElectric.Models;
+using Minesweeper_SchneiderElectrical.Models;
 
-namespace MineSweeper_SchnaiderElectric.Interfaces;
+namespace Minesweeper_SchneiderElectrical.Interfaces;
 
 public interface IGameBoardService
 {
