@@ -10,7 +10,7 @@ internal static class Program
     {
         var services = CreateServices();
         var game = new GameService(services.GetRequiredService<IPlayerService>(), services.GetRequiredService<IGameBoardService>());
-        game.StartGame(10);
+        game.StartGame(5);
     }
 
     private static ServiceProvider CreateServices()

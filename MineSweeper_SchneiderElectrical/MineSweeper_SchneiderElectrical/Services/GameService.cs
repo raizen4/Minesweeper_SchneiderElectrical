@@ -58,7 +58,7 @@ public class GameService : IGameService
         }
 
         Console.WriteLine(_player.HasReachedGoal
-            ? $"Congratulations! You reached the goal in {_player.Moves} moves."
+            ? $"Congratulations! You reached the goal in {_player.Moves} moves. Your total score is {_player.Moves}"
             : "Game Over! You ran out of lives.");
     }
 
