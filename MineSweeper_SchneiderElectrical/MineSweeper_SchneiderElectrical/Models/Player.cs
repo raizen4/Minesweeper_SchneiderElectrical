@@ -9,10 +9,8 @@ public class Player
     public bool HasReachedGoal { get; set; }
     public (int, int) Position { get; set; }
 
-    public Player()
-    {
-        
-    }
+    public Player() { }
+    
     public Player(int lives, (int, int) startPosition)
     {
         Lives = lives;

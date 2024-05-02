@@ -11,10 +11,7 @@ public class GameBoard
         _cells = new GameBoardCell[Size, Size];
     }
     
-    public GameBoard()
-    {
-        
-    }
+    public GameBoard() { }
 
     public void SetCell(int row, int column, GameBoardCell cell)
     {
