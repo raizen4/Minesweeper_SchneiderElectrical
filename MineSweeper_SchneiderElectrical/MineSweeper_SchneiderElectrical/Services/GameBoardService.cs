@@ -1,7 +1,7 @@
-using Minesweeper_SchneiderElectrical.Interfaces;
-using Minesweeper_SchneiderElectrical.Models;
+using MineSweeper_SchneiderElectrical.Interfaces;
+using MineSweeper_SchneiderElectrical.Models;
 
-namespace Minesweeper_SchneiderElectrical.Services;
+namespace MineSweeper_SchneiderElectrical.Services;
 
 public class GameBoardService : IGameBoardService
 {

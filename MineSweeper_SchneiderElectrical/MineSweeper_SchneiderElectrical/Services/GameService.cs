@@ -1,8 +1,8 @@
-using Minesweeper_SchneiderElectrical.Helpers;
-using Minesweeper_SchneiderElectrical.Interfaces;
-using Minesweeper_SchneiderElectrical.Models;
+using MineSweeper_SchneiderElectrical.Helpers;
+using MineSweeper_SchneiderElectrical.Interfaces;
+using MineSweeper_SchneiderElectrical.Models;
 
-namespace Minesweeper_SchneiderElectrical.Services;
+namespace MineSweeper_SchneiderElectrical.Services;
 
 public class GameService : IGameService
 {
@@ -78,8 +78,6 @@ public class GameService : IGameService
         return startPosition;
     }
     
-    //I know this was not necessary as part of the submission but it helped me debug issues with the main
-    //game logic. I am leaving it here for reference.
     private void DrawGameBoard(int size)
     {
         Console.WriteLine("Game Board:");

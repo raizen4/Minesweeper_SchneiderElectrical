@@ -1,6 +1,6 @@
-using Minesweeper_SchneiderElectrical.Models;
+using MineSweeper_SchneiderElectrical.Models;
 
-namespace Minesweeper_SchneiderElectrical.Interfaces;
+namespace MineSweeper_SchneiderElectrical.Interfaces;
 
 public interface IPlayerService
 { 

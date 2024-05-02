@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minesweeper_SchneiderElectrical", "Minesweeper_SchneiderElectrical.csproj", "{E6C6E2BC-C2A0-47D8-A405-9BFEE83D3CC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineSweeper_SchneiderElectrical", "MineSweeper_SchneiderElectrical\MineSweeper_SchneiderElectrical.csproj", "{3F5FE7EB-40CC-4CBE-87B6-4C344D235472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6D5E0E9D-F572-41DA-88EC-EB23FAE66D74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E6C6E2BC-C2A0-47D8-A405-9BFEE83D3CC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6C6E2BC-C2A0-47D8-A405-9BFEE83D3CC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6C6E2BC-C2A0-47D8-A405-9BFEE83D3CC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6C6E2BC-C2A0-47D8-A405-9BFEE83D3CC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F5FE7EB-40CC-4CBE-87B6-4C344D235472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F5FE7EB-40CC-4CBE-87B6-4C344D235472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F5FE7EB-40CC-4CBE-87B6-4C344D235472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F5FE7EB-40CC-4CBE-87B6-4C344D235472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D5E0E9D-F572-41DA-88EC-EB23FAE66D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D5E0E9D-F572-41DA-88EC-EB23FAE66D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D5E0E9D-F572-41DA-88EC-EB23FAE66D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D5E0E9D-F572-41DA-88EC-EB23FAE66D74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

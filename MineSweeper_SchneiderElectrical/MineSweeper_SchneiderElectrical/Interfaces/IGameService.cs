@@ -1,4 +1,4 @@
-namespace Minesweeper_SchneiderElectrical.Interfaces;
+namespace MineSweeper_SchneiderElectrical.Interfaces;
 
 public interface IGameService
 {

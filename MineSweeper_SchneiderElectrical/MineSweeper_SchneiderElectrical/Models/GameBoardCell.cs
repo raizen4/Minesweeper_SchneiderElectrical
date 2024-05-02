@@ -1,4 +1,4 @@
-namespace Minesweeper_SchneiderElectrical.Models;
+namespace MineSweeper_SchneiderElectrical.Models;
 
 public class GameBoardCell
 {

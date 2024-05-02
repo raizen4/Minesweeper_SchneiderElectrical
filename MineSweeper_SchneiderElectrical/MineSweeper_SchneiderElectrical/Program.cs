@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Minesweeper_SchneiderElectrical.Interfaces;
-using Minesweeper_SchneiderElectrical.Services;
+using MineSweeper_SchneiderElectrical.Interfaces;
+using MineSweeper_SchneiderElectrical.Services;
 
-namespace Minesweeper_SchneiderElectrical;
+namespace MineSweeper_SchneiderElectrical;
 
 internal static class Program
 {
@@ -10,7 +10,7 @@ internal static class Program
     {
         var services = CreateServices();
         var game = new GameService(services.GetRequiredService<PlayerService>(), services.GetRequiredService<GameBoardService>());
-        game.StartGame(5);
+        game.StartGame(10);
     }
 
     private static ServiceProvider CreateServices()

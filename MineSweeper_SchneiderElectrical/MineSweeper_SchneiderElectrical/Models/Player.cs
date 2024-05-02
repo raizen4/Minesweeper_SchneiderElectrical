@@ -1,14 +1,18 @@
-using Minesweeper_SchneiderElectrical.Helpers;
+using MineSweeper_SchneiderElectrical.Helpers;
 
-namespace Minesweeper_SchneiderElectrical.Models;
+namespace MineSweeper_SchneiderElectrical.Models;
 
 public class Player
 {
     public int Lives { get; set; }
     public int Moves { get; private set; }
     public bool HasReachedGoal { get; set; }
-    public (int, int) Position { get; private set; }
+    public (int, int) Position { get; set; }
 
+    public Player()
+    {
+        
+    }
     public Player(int lives, (int, int) startPosition)
     {
         Lives = lives;

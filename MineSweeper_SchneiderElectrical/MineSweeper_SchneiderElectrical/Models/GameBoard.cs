@@ -1,12 +1,19 @@
-namespace Minesweeper_SchneiderElectrical.Models;
+namespace MineSweeper_SchneiderElectrical.Models;
 
 public class GameBoard
 {
     private GameBoardCell[,] _cells;
+    public int Size { get; set; }
 
     public GameBoard(int size)
     {
-        _cells = new GameBoardCell[size, size];
+        Size = size;
+        _cells = new GameBoardCell[Size, Size];
+    }
+    
+    public GameBoard()
+    {
+        
     }
 
     public void SetCell(int row, int column, GameBoardCell cell)
